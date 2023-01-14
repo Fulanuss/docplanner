@@ -1,0 +1,348 @@
+body {
+    font-family: Roboto,Arial, sans-serif;
+    font-weight: 400;
+    color:#747474;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+}
+
+
+.imglogo{
+    margin-top: 150px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+nav h1 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 100px;
+}
+nav h1 img {
+    padding: 10px;
+}
+nav .onglets {
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 100px;
+}
+nav .onglets a {
+    text-decoration: none;
+    padding: 20px;   
+}
+.about {
+    color: aqua;
+}
+nav .onglets a:hover {
+    color: aqua;
+}
+.Titre-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.Title {
+    color: #00b39b;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 300;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.descriptif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cards {
+    height: 345px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.patients {
+    height: 345px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #00ccb1;
+}
+.doctors {
+    height: 345px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #3d83df;
+}
+.clinics {
+    height: 345px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: black;
+}
+.cards h2 {
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cards p {
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.country {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 60px;
+    font-weight: 300;
+    font-size: larger;
+}
+.specialists {
+    font-weight: 300;
+    font-size: larger;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 70px;
+
+}
+.head-section {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00b39b;
+
+}
+.clinics img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.doctors img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.patients img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.plateforme {
+    background-color:#e5faf8;
+    display: flex;
+    height: 800px;
+}
+.world {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+.world h1 {
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.world p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.world img {
+    height: 300px;
+    width: 600px;
+    margin-top: 100px;
+}
+.tableaux {
+    display: grid;
+    grid-column-gap: 80px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(2, 300px); 
+}
+.tableauA {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 50px;
+    border-style: solid;
+    border: transparent;
+    height: 250px;
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tableauB {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border: transparent;
+    height: 250px;
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;   
+}
+.tableauC {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    border-style: solid;
+    border: transparent;
+    height: 250px;
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;   
+}
+.tableauD {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 50px;
+    border-style: solid;
+    border: transparent;
+    height: 250px;
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;   
+}
+.tableauA img{
+    margin-top: 0;
+    margin-left: 55px;
+
+}
+.tableauA h2 {
+    margin-top: 5px;
+}
+
+.tableauA p {
+    margin: 0;
+}
+.tableauB img {
+    margin-top: 0;
+    margin-left: 55px;
+
+}
+.tableauB h2 {
+    margin: 20px;
+    margin-left: 10px;
+}
+.tableauB p {
+    margin: 10px;
+}
+.tableauC img{
+    margin: 0;
+    margin-left: 55px;
+}
+.tableauD img{
+    margin: 0;
+    margin-left: 55px;
+}
+.forever h1{
+    display: block;
+    text-align: center;
+    color: #00b39b;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.forever p{
+    display: block;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.pictures {
+    display: grid;
+    grid-column-gap: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+.pictures img{
+    border-radius: 10px;
+}
+.town{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.town button{
+    background-color: #3d83df;
+    color: #e5faf8;
+    border-style: none;
+    height: 20px;
+    border-radius: 3px;
+}
+.openings{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;    
+}
+.openings h2{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300px;
+}
+.openings button{
+    background-color: #3d83df;
+    border-style: none;
+    color: #e5faf8;
+    border-radius: 5px;
+    height: 30px;
+}
+footer{
+    margin-top: 50px;
+    font-size: 12px;
+    color: #ababab;
+}
+footer p{
+    text-align: center;
+}
