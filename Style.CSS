@@ -31,12 +31,14 @@ nav h1 img {
 nav .onglets {
     padding: 10px;
     text-decoration: none;
-    margin-right: 100px;
+    margin-right: 50px;
+    margin-left: 500px;
 }
 nav .onglets a {
     text-decoration: none;
     padding: 20px;   
 }
+
 .about {
     color: aqua;
 }
